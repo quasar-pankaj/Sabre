@@ -1,0 +1,5 @@
+if(EXISTS "/home/pankaj/Projects/CPP/sabre/build/vm/loader_tests[2]_tests.cmake")
+  include("/home/pankaj/Projects/CPP/sabre/build/vm/loader_tests[2]_tests.cmake")
+else()
+  add_test(loader_tests_NOT_BUILT loader_tests_NOT_BUILT)
+endif()

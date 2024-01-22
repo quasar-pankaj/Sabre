@@ -1,0 +1,5 @@
+if(EXISTS "/home/pankaj/Projects/CPP/sabre/build/loaders/byte_code_loader/byte_code_tests[1]_tests.cmake")
+  include("/home/pankaj/Projects/CPP/sabre/build/loaders/byte_code_loader/byte_code_tests[1]_tests.cmake")
+else()
+  add_test(byte_code_tests_NOT_BUILT byte_code_tests_NOT_BUILT)
+endif()
